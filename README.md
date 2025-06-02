@@ -1,3 +1,4 @@
-trimmomatic in snpcalling then step by step is given
-step3 
-python3 compare_snps.py > comparesnps2.py
+python3 -m venv myenv
+source myenv/bin/activate
+pip install PyVCF
+python comparesnps2.py Filtered_SAP.vcf vcf_paths.txt
