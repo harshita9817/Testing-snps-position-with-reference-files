@@ -1,4 +1,4 @@
-# compare_snps.py
+#comparing with other pi compare_snps.py
 import argparse
 import os
 import sys
